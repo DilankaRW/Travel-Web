@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import AboutImg from "../images/Normal.jpg"
@@ -12,6 +13,7 @@ function Contact(){
         title="Contact"
         btnClass="hide"
         />
+        <Footer/>
         </>
     )
 }

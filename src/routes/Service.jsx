@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import AboutImg from "../images/Wild.jpg"
@@ -12,6 +13,7 @@ function Service(){
         title="Service"
         btnClass="hide"
         />
+        <Footer/>
         </>
     )
 }
