@@ -2,6 +2,7 @@ import Mountain1 from "../images/Adventurous.jpg"
 import Mountain2 from "../images/Authentic.jpg"
 import Mountain3 from "../images/Normal.jpg"
 import Mountain4 from "../images/Romantic.jpg"
+import DestinationData from "./DestinationData"
 import "./DestinationStyles.css"
 
 const Destination = () => {
@@ -10,16 +11,21 @@ const Destination = () => {
             <h1>Popular Destinations</h1>
             <p>Tours give you the opportunity to see a lot, within a time frame.</p>
 
-            <div className="first-des">
-                <div className="des-text">
-                    <h2>Taal Volcano, Batangas</h2>
-                    <p>One of the most iconic views in Luzon Mt Tall boasts a volcano inside a lake inside an island.</p>
-                </div>
-                <div className="image">
-                <img src={Mountain1} alt="Image" />
-                <img src={Mountain2} alt="Image" />
-                </div>
-            </div>
+            <DestinationData
+            className="first-des"
+            heading="Taal Volcano, Batangas"
+            text="One of the most iconic views in Luzon Mt Tall boasts a volcano inside a lake inside an island."
+            img1={Mountain1}
+            img2={Mountain2}
+            />
+
+            <DestinationData
+            className="first-des-reverse"
+            heading="Taal Volcano, Batangas"
+            text="One of the most iconic views in Luzon Mt Tall boasts a volcano inside a lake inside an island."
+            img1={Mountain3}
+            img2={Mountain4}
+            />
         </div>
     )
 }
