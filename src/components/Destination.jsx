@@ -1,6 +1,6 @@
-import Mountain1 from "../images/anuradhapura.jpg"
+import Mountain1 from "../images/Normal.jpg"
 import Mountain2 from "../images/arugam_bay.jpg"
-import Mountain3 from "../images/Authentic.jpg"
+import Mountain3 from "../images/sinharaja.jpg"
 import Mountain4 from "../images/bambarakanda_falls.jpg"
 import DestinationData from "./DestinationData"
 import "./DestinationStyles.css"

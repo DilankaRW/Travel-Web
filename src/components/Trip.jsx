@@ -1,9 +1,8 @@
 import "./TripStyles.css";
 import TripData from "./TripData";
-import Trip1 from "../images/anuradhapura.jpg"
-import Trip2 from "../images/anuradhapura.jpg"
-import Trip3 from "../images/anuradhapura.jpg"
-import Trip4 from "../images/anuradhapura.jpg"
+import Trip1 from "../images/bentot_beach.jpg"
+import Trip2 from "../images/nine_arch_bridge.jpg"
+import Trip3 from "../images/Regular.jpg"
 
 function Trip(){
     return(

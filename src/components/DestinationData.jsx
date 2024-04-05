@@ -1,8 +1,4 @@
 import { Component } from "react";
-import Mountain1 from "../images/Adventurous.jpg"
-import Mountain2 from "../images/Authentic.jpg"
-import Mountain3 from "../images/Normal.jpg"
-import Mountain4 from "../images/Romantic.jpg"
 import "./DestinationStyles.css";
 
 class DestinationData extends Component{
