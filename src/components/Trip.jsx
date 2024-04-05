@@ -1,9 +1,9 @@
 import "./TripStyles.css";
 import TripData from "./TripData";
-import Trip1 from "../images/cover.jpg"
-import Trip2 from "../images/cover1.jpg"
-import Trip3 from "../images/cover2.jpg"
-import Trip4 from "../images/cover3.jpg"
+import Trip1 from "../images/anuradhapura.jpg"
+import Trip2 from "../images/anuradhapura.jpg"
+import Trip3 from "../images/anuradhapura.jpg"
+import Trip4 from "../images/anuradhapura.jpg"
 
 function Trip(){
     return(
@@ -17,13 +17,13 @@ function Trip(){
                 text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans."
                 />
 
-<TripData
+                <TripData
                 image={Trip2}
                 heading="Trip in Indonesia"
                 text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans."
                 />
 
-<TripData
+                <TripData
                 image={Trip3}
                 heading="Trip in Indonesia"
                 text="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans."

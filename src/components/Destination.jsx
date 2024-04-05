@@ -1,7 +1,7 @@
-import Mountain1 from "../images/Adventurous.jpg"
-import Mountain2 from "../images/Authentic.jpg"
-import Mountain3 from "../images/Normal.jpg"
-import Mountain4 from "../images/Romantic.jpg"
+import Mountain1 from "../images/anuradhapura.jpg"
+import Mountain2 from "../images/anuradhapura.jpg"
+import Mountain3 from "../images/anuradhapura.jpg"
+import Mountain4 from "../images/anuradhapura.jpg"
 import DestinationData from "./DestinationData"
 import "./DestinationStyles.css"
 
