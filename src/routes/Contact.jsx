@@ -2,7 +2,7 @@ import ContactForm from "../components/ContactForm";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
-import AboutImg from "../images/Normal.jpg"
+import ContactImg from "../images/Normal.jpg"
 
 function Contact(){
     return(
@@ -10,7 +10,7 @@ function Contact(){
         <Navbar/>
         <Hero
         cName="hero-mid"
-        heroImg={AboutImg}
+        heroImg={ContactImg}
         title="Contact"
         btnClass="hide"
         />

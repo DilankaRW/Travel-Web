@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Trip from "../components/Trip";
-import AboutImg from "../images/Wild.jpg"
+import ServiceImg from "../images/Wild.jpg"
 
 function Service(){
     return(
@@ -10,7 +10,7 @@ function Service(){
         <Navbar/>
         <Hero
         cName="hero-mid"
-        heroImg={AboutImg}
+        heroImg={ServiceImg}
         title="Service"
         btnClass="hide"
         />

@@ -3,7 +3,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Trip from "../components/Trip";
-import image from "../images/BANNER.jpg"
+import Homeimage from "../images/BANNER.jpg"
 
 function Home(){
     return(
@@ -11,7 +11,7 @@ function Home(){
         <Navbar/>
         <Hero
         cName="hero"
-        heroImg={image}
+        heroImg={Homeimage}
         title="Your Journey Your Story"
         text="Choose Your Favourite Destination."
         buttonText="Travel Plan"
