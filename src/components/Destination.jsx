@@ -1,7 +1,7 @@
-import Mountain1 from "../images/Normal.jpg"
-import Mountain2 from "../images/arugam_bay.jpg"
-import Mountain3 from "../images/sinharaja.jpg"
-import Mountain4 from "../images/bambarakanda_falls.jpg"
+import image1 from "../images/Normal.jpg"
+import image2 from "../images/arugam_bay.jpg"
+import image3 from "../images/sinharaja.jpg"
+import image4 from "../images/bambarakanda_falls.jpg"
 import DestinationData from "./DestinationData"
 import "./DestinationStyles.css"
 
@@ -15,16 +15,16 @@ const Destination = () => {
             className="first-des"
             heading="Taal Volcano, Batangas"
             text="One of the most iconic views in Luzon Mt Tall boasts a volcano inside a lake inside an island."
-            img1={Mountain1}
-            img2={Mountain2}
+            img1={image1}
+            img2={image2}
             />
 
             <DestinationData
             className="first-des-reverse"
             heading="Taal Volcano, Batangas"
             text="One of the most iconic views in Luzon Mt Tall boasts a volcano inside a lake inside an island."
-            img1={Mountain3}
-            img2={Mountain4}
+            img1={image3}
+            img2={image4}
             />
         </div>
     )
