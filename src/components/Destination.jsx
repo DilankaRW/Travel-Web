@@ -13,16 +13,16 @@ const Destination = () => {
 
             <DestinationData
             className="first-des"
-            heading="Taal Volcano, Batangas"
-            text="One of the most iconic views in Luzon Mt Tall boasts a volcano inside a lake inside an island."
+            heading="Adventurous Spirit"
+            text="Bitten by the travel bug and in search of new and unique experiences? Sri Lanka was once called Serendipity – ‘the place of accidental happenings’ due to the adventure that constantly lurked around the corner. With Jetwing Travels you can travel by foot in search of mystical waterfalls, trail through the jungles of Butulla, go diving near ship wrecks and coral reefs and cycle through the coastal towns in search of the hidden treasures of Sri Lanka."
             img1={image1}
             img2={image2}
             />
 
             <DestinationData
             className="first-des-reverse"
-            heading="Taal Volcano, Batangas"
-            text="One of the most iconic views in Luzon Mt Tall boasts a volcano inside a lake inside an island."
+            heading="Romantic Serendipity"
+            text="Imagine a tour designed simply to help you rekindle the love or ensure that and your other half can enjoy a honeymoon with all the comfort and solitude you desire. With Love Songs of Ceylon a romantic rendezvous from the Negombo beaches to Hatton tea plantations will undoubtedly set the mood. Sri Lankan Rendezvous will give you the time and space that you need for each other amidst the hills of Kandy, the mist of Nuwara Eliya and the soft sands of Bentota."
             img1={image3}
             img2={image4}
             />
